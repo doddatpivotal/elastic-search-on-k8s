@@ -63,7 +63,7 @@ spec:                            # Holds specification of this resource
       accessModes: ["ReadWriteOnce"]  # Access mode of the volume
       resources:                      # Holds the list of resources
         requests:                     # Requests sent to the storage class
-          storage: 3Gi                # Request to provision a volume of 1 GB
+          storage: 1Gi                # Request to provision a volume of 1 GB
 # ---
 # kind: StorageClass
 # apiVersion: storage.k8s.io/v1
